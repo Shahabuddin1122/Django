@@ -1,0 +1,1 @@
+we are thinking to create a hiring company flutter app where any employer can post a job post with there requirement. and our system can automatically divide those people whom not able to fulfill job requirement. please give more functionality of this apps
