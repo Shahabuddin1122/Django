@@ -22,4 +22,6 @@ from apps.users import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('user/', views.user),
+    path('add-user/', views.add_user),
+    path('indivisual-user/<name>/', views.get_individual_user),
 ]
