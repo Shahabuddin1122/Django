@@ -21,7 +21,7 @@ class User(models.Model):
     name = models.CharField(max_length=100)
     email = models.EmailField()
     password = models.CharField(max_length=100)
-    cars = models.ManyToManyField(Car, blank=True, null=True)
+    cars = models.ManyToManyField(Car)
     img = models.OneToOneField(ProfileImage, on_delete=models.CASCADE,null=True,blank=True)
 
     def __str__(self):
